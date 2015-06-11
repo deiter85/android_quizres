@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QuizRes</string>
+    <string name="action_settings">Settings</string>
+    <string name="bienvenida">Bienvenido a QuizRes</string>
+    <string name="nueva">Nueva Partida</string>
+    <string name="puntuacion">Puntuaciones</string>
+    <string name="acerca">Acerca de QuizRes</string>
+    <string name="licencia">Licencia: GNU GPLv3.0</string>
+    <string name="licdireccion">GPLv3.0</string>
+    <string name="version">Version: 1.0</string>
+    <string name="descripcion">Aplicación desarrollada por Fernando Fernández Quirós para FerSoft SLNE</string>
+    <string name="direccion">https://www.fersoft.org</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="txt1">Esta aplicación es un juego de preguntas.</string>
+    <string name="txt2">En la pantalla principal prodrás elegir entre distintas funcionalidades:</string>
+    <string name="txt3">En configuración puedes elegir los valores que quieras seleccionandolos. NO OLVIDES pulsar guardar para establecerlos. Los campos a configurar son el nivel del juego (menor tiempo cuanto más dificil) y el número de preguntas a contestar. Por defecto 10sg y 10 preguntas.</string>
+    <string name="txt4">En la pantalla puntuación se ve la tabla con la mejores puntuaciones.</string>
+    <string name="txt5">El juego consiste en contestar correctamente el mayor número de preguntas posibles. Recuerda que tendrás un tiempo para ello. A mayor número de preguntas acertadas mayor puntuacón obtendrás.</string>
+    <string name="txt6">Una vez terminado el juego aparecerá una pantalla con tu puntuación, ésta se puede guardar en la aplicación, para ello introduce un nombre(no vales el campo vacio) y pulsa guardar. Tambié puedes volver a juegar.</string>
+    <string name="txt7">El botón flecha que aparece en la mayoria de las pantallas es para volver atrás.</string>
+    <string name="nombre">Introduce tu nombre:</string>
+    <string name="guardarP">Guardar puntuación</string>
+    <string name="pregunta">Pregunta: 01/10</string>
+    <string name="volver">Vuelve a intentarlo</string>
+    <string name="vacio">No se permite vacio</string>
+    <string name="finalizar">PARTIDA FINALIZADA</string>
+    <string name="nivel">Nivel</string>
+    <string name="npreguntas">Número de preguntas</string>
+    <string name="confi">Configuración</string>
+    <string name="guardar">Guardar</string>
+    <string name="salir">Salir</string>
+</resources>

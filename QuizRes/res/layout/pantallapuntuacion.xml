@@ -1,0 +1,49 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo" >
+    <ImageView
+        android:id="@+id/imagenCopa"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/punt" />
+    <TextView
+        android:id="@+id/textoPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagenCopa"
+        android:layout_toRightOf="@+id/imagenCopa"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/blue2"
+        android:text="@string/puntuacion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="monospace" />
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imagenCopa"
+        android:divider="@color/blue"
+        android:dividerHeight="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:typeface="monospace"
+        android:layout_marginTop="14dp" >
+    </ListView>
+    <ImageView
+        android:id="@+id/imagenAtrasPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue"
+        android:onClick="pulsarAtras"        
+        android:src="@drawable/ic_action_back" />
+</RelativeLayout>

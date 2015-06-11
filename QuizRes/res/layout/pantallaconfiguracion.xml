@@ -1,0 +1,86 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo" >
+    <TextView
+        android:id="@+id/textoConfiguracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/blue2"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/confi"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="monospace" />
+    <ImageView
+        android:id="@+id/imagenAtrasConfiguracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue"
+        android:onClick="pulsarAtras"
+        android:src="@drawable/ic_action_back" />
+    <TextView
+        android:id="@+id/textoNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textoConfiguracion"
+        android:layout_below="@+id/textoConfiguracion"
+        android:layout_marginTop="54dp"
+        android:textColor="@color/blue2"
+        android:text="@string/nivel"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="monospace" />
+    <Spinner
+        android:id="@+id/spinnerNPreguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textoNPreguntas"
+        android:layout_alignRight="@+id/spinnerNivel"
+        android:layout_below="@+id/textoNPreguntas"
+        android:background="@drawable/btn_dropdown"
+        android:typeface="monospace" />
+    <Spinner
+        android:id="@+id/spinnerNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textoNivel"
+        android:layout_alignRight="@+id/textoConfiguracion"
+        android:layout_below="@+id/textoNivel"
+        android:background="@drawable/btn_dropdown"
+        android:typeface="monospace" />
+    <TextView
+        android:id="@+id/textoNPreguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerNivel"
+        android:layout_below="@+id/spinnerNivel"
+        android:layout_marginTop="30dp"
+        android:text="@string/npreguntas"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue2"
+        android:typeface="monospace" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerNPreguntas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="pulsarBGuardar"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/guardar"
+        android:textColor="@color/blue3"
+        android:typeface="monospace" />
+</RelativeLayout>
